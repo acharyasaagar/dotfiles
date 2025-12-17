@@ -32,3 +32,5 @@ alias gpsh='git push'
 alias ll='ls -A'
 # List
 alias l='ls -C'
+# Clear terminal
+alias cls='clear && printf "\e[3J"'
