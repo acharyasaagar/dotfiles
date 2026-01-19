@@ -3,6 +3,7 @@
     "esbenp.prettier-vscode",
     "formulahendry.auto-rename-tag",
     "humao.rest-client",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "sdras.night-owl"
   ]
 }
