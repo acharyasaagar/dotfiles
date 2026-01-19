@@ -6,12 +6,12 @@
   "editor.fontLigatures": true,
   "editor.fontWeight": 300,
   "editor.fontSize": 14,
-  "editor.fontFamily": "Fira Code",
-  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontFamily": "Fira Code, monospace",
+  "terminal.integrated.fontFamily": "Fira Code, monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": 300,
   "workbench.iconTheme": "material-icon-theme",
   "prettier.singleQuote": true,
   "prettier.semi": false,
-  "workbench.colorTheme": "Night Owl"
+  "workbench.colorTheme": "Night Owl (No Italics)",
 }
