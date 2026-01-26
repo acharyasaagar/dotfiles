@@ -1,0 +1,28 @@
+{
+	"multipart form-data field": {
+		"prefix": "fd",
+		"body": [
+			"--boundary",
+			"Content-Disposition: form-data; name=\"${1:name}\"",
+			"",
+			"${2:value}"
+		],
+		"description": "multipart/form-data field"
+	},
+	"POST multipart form-data": {
+		"prefix": "postfd",
+		"body": [
+			"@url = ${1:url}",
+			"",
+			"POST {{url}}",
+			"Content-Type: multipart/form-data; boundary=boundary",
+			"",
+			"--boundary",
+			"Content-Disposition: form-data; name=\"${2:name}\"",
+			"",
+			"${3:value}",
+			"--boundary--"
+		],
+		"description": "POST multipart/form-data"
+	}
+}
